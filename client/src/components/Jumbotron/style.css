@@ -1,6 +1,6 @@
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(../../img/Homepage.jpeg);
+    background-image: url('../../img/Homepage.jpeg');
     color: #515e5f;
     background-position: 0% 25%;
     background-size: cover;
