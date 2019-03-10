@@ -1,0 +1,20 @@
+.ui.segment {
+    border: 0px;
+}
+
+.header {
+    font-weight: 100;
+    color: #515e5f;
+}
+
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+    font-weight: 700;
+    font-size: 1.28571429em;
+    margin-top: .51425em;
+    line-height: 1.28571429em;
+}
+
+
+.ui.card {
+    box-shadow: 0 0px 0px 0 #d4d4d5, 0 0 0 0px #d4d4d5;
+}

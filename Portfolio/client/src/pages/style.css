@@ -1,0 +1,22 @@
+h1 {
+    font-weight: 100;
+    color: #515e5f;
+}
+
+a {
+    color: #515e5f;
+    font-weight: 100;
+}
+
+.ui.image {
+    max-width: 40%;
+}
+
+.ui.cards {
+    margin: 0;
+    padding-left: 2%;
+}
+
+.jumbotronProjects {
+    padding-top: 0px;
+}

@@ -1,0 +1,3 @@
+export CLOUD_NAME=hughkohl
+export API_KEY=192389578312239
+export API_SECRET=3EmjYpxf8DQ8qRMebY13vkAvkhg
