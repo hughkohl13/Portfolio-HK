@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Jumbotron from "../components/Jumbotron";
 import API from "../utils/API";
-import { Col, Row, Container } from "../components/Grid";
+import { Container } from "semantic-ui-react";
 import { Input, FormBtn } from "../components/Form";
 // import { UploadFile } from '../components/UploadBtn';
 import axios from 'axios';
@@ -87,8 +87,6 @@ onChange(e) {
   render() {
     return (
       <Container fluid>
-        <Row>
-        <Col size="md-12">
           <Jumbotron>
             <h1>Upload a project.</h1>
           </Jumbotron>
@@ -117,9 +115,6 @@ onChange(e) {
               Submit Project
             </FormBtn>
           </form>
-        </Col>
-
-        </Row>
       </Container>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Jumbotron from "../components/Jumbotron";
 import API from "../utils/API";
-import { Col, Row, Container } from "../components/Grid";
+import { Container } from "semantic-ui-react";
 import { Input, TextArea, FormBtn } from "../components/Form";
 import './style.css';
 
@@ -54,8 +54,6 @@ class Contact extends Component {
   render() {
     return (
       <Container fluid>
-        <Row>
-        <Col size="md-12">
           <Jumbotron>
             <h1>Need help?</h1>
           </Jumbotron>
@@ -85,9 +83,6 @@ class Contact extends Component {
               Submit Project
             </FormBtn>
           </form>
-        </Col>
-
-        </Row>
       </Container>
     );
   }
